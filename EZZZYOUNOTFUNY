@@ -1,3 +1,7 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Notfunybro/Tpstreetsoccer/main/Notfunyjsjsjsjsjs.lua"))()
-elseif game.PlaceId == 335760407 then
-    print ("TPS")
+local gameId = 335760407 
+
+if game.PlaceId == gameId then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Notfunybro/Tpstreetsoccer/main/Notfunyjsjsjsjsjs.lua"))()
+else
+    warn("Este script solo es compatible con el juego TPS Street Soccer.")
+end
