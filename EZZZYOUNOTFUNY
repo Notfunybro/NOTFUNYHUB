@@ -5,3 +5,11 @@ if game.PlaceId == gameId then
 else
     warn("Este script solo es compatible con el juego TPS Street Soccer.")
 end
+
+local gameId = 6520999642 
+
+if game.PlaceId == gameId then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Notfunybro/Funkyremix/main/77_RN7L7FG8.lua"))()
+else
+    warn("Este script solo es compatible con el juego Básicamente FNF: Remix  .")
+end
