@@ -1,6 +1,11 @@
-local gameId = 335760407 
+local gameId = 335760407
+local placeId = 335760407
+local universeId = 124283622
+local newId1 = 13762482705
+local newId2 = 13804254727
+local newId3 = 13804242208
 
-if game.PlaceId == gameId then
+if game.PlaceId == placeId or game.PlaceId == gameId or game.PlaceId == newId1 or game.PlaceId == newId2 or game.PlaceId == newId3 or game.UniverseId == universeId then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Notfunybro/Tpstrialezzz/main/77_LR3FBD.lua"))()
 else
     warn("Este script solo es compatible con el juego TPS Street Soccer.")
